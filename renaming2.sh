@@ -9,9 +9,11 @@ then
   for ARCHIVO in *.${EXTENSION}
   do 
     mv ${ARCHIVO} ${FECHA}-$ARCHIVO
-  else
-      for ARCHIVO in *.{EXTENSION}
-      do
-	mv ${ARCHIVO} ${PREFIJO}-$ARCHIVO
-	echo "ya terminamos"
+  done
+else 
+  for ARCHIVO in *.${EXTENSION} 
+  do 
+   mv ${ARCHIVO} ${PREFIJO}-$ARCHIVO 
+   echo "Renombrando ${ARCHIVO} a ${PREFIJO}-${ARCHIVO}"
+ done
 fi
