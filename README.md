@@ -6,5 +6,5 @@ This is a collection of simple scripts created from the course content
 
 With the help of these shell scripts you'll learn how to make repetitious tasks into small programs that will save you a lot of time.
 
-These scrpits will work on Linux, Unix or Mac systems.
+> These scrpits will work on Linux, Unix or Mac systems.
 
